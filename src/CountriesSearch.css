@@ -1,0 +1,39 @@
+.countries{
+    display:flex;
+    flex-wrap: wrap;
+    height:"100vh";
+    justify-content: center;
+    align-items: center;
+}
+
+.countryCard{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:250px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.countryCard img{
+    width:80%;
+    height:70%;
+} 
+
+h2{
+    text-align: center;
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Search{
+    width:50%;
+}
